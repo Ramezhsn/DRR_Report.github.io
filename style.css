@@ -1,0 +1,106 @@
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    position: relative;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+    color: #333;
+    font-size: 2em;
+}
+
+.drr-logo {
+    width: 50px; /* Adjust the size of the logo as needed */
+    height: auto;
+}
+
+section {
+    margin-top: 20px;
+}
+
+hr.page-separator {
+    border: 1px solid #ddd;
+    margin: 40px 0;
+}
+
+.page {
+    padding: 20px;
+}
+
+.content-block {
+    margin-bottom: 20px;
+}
+
+.content-block h2 {
+    color: #444;
+    margin-bottom: 10px;
+    font-size: 1.25em;
+    cursor: pointer; /* Indicate that headers are clickable */
+}
+
+.content-block p {
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.orientation-content {
+    text-align: center;
+    position: relative;
+}
+
+.orientation-content h2 {
+    font-size: 1.5em;
+    margin-top: 20px;
+    color: orange; /* Changed to orange as requested */
+}
+
+.orientation-boxes {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.box {
+    text-align: center;
+    max-width: 150px; /* Adjusted max-width for smaller images */
+}
+
+.box img {
+    width: 100%;
+    height: auto;
+}
+
+.box h3 {
+    margin-top: 10px;
+    font-size: 1.25em;
+    color: #333;
+}
+
+.box p {
+    font-size: 1em;
+    color: #666;
+    margin-top: 10px;
+}
