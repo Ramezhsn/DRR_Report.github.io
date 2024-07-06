@@ -5,13 +5,15 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
+    background-color: transparent;
+    color: #ffffff;
 }
 
 .container {
     width: 100%;
     margin: 0;
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(53, 92, 118, 0.8); /* Background color with some transparency */
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     border-radius: 8px;
     position: relative;
@@ -27,7 +29,7 @@ header {
 
 header h1 {
     margin: 0;
-    color: #333;
+    color: #fff; /* White text for better contrast */
     font-size: 2em;
 }
 
@@ -54,14 +56,14 @@ hr.page-separator {
 }
 
 .content-block h2 {
-    color: #444;
+    color: #ffcc00; /* Bright color for headers */
     margin-bottom: 10px;
     font-size: 1.25em;
     cursor: pointer; /* Indicate that headers are clickable */
 }
 
 .content-block p {
-    color: #666;
+    color: #ffffff; /* White text for content */
     line-height: 1.6;
     margin-bottom: 10px;
 }
@@ -96,11 +98,11 @@ hr.page-separator {
 .box h3 {
     margin-top: 10px;
     font-size: 1.25em;
-    color: #333;
+    color: #fff; /* White text for headers in boxes */
 }
 
 .box p {
     font-size: 1em;
-    color: #666;
+    color: #ffffff; /* White text for content in boxes */
     margin-top: 10px;
 }
